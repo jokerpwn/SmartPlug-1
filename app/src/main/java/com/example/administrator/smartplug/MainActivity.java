@@ -14,12 +14,6 @@ public class MainActivity extends AppCompatActivity {
         //使用activity_main_xml文件定义界面布局
         setContentView(R.layout.activity_main);
     }
-    /*
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu){
-        getMenuInflater().inflate(R.menu.menu_main,menu);
-        return true;
-    }*/
     public void clickHandler(View source){
         //获取UI界面中的ID为R.id.show文本框
         TextView tv = (TextView) findViewById(R.id.show);
