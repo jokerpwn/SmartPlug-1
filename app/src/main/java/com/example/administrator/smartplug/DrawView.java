@@ -9,7 +9,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * Created by Administrator on 2017/11/5.
+ * Created by 通哥哥 on 2017/11/5.
  */
 
 public class DrawView extends View{
