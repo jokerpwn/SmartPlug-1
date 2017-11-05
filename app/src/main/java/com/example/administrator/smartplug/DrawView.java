@@ -28,7 +28,7 @@ public class DrawView extends View{
     public void onDraw(Canvas canvas){
         super.onDraw(canvas);
         //设置画笔颜色
-        p.setColor(Color.RED);
+        p.setColor(Color.GREEN);
         //绘制一个小圆作为小球
         canvas.drawCircle(currentX,currentY,15,p);
     }
